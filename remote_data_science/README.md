@@ -16,7 +16,7 @@ https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
 
 ### Additionally, you will need to install
 - [x] numpy
-    * `pip install numpy`
+    * `pip install numpy` or use `pip3` if `pip` does not work
 - [x] pandas
     * `pip install pandas`
 - [x] OpenDP Smart-Noise
