@@ -1,4 +1,4 @@
-# Dependencies and Stuff to Install
+# :heavy_check_mark: Dependencies and Stuff to Install :heavy_check_mark:
 
 ## Follow the steps outlined in this link below:
 https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
