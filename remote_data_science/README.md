@@ -3,26 +3,26 @@
 ## Follow the steps outlined in this link below:
 https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
 ### The above will have you install
-- [x] Conda
+- [x] :snake: Conda
 - [x] Necessary Python packages
-    * pip
-    * jupyter lab
-    * git
-    * hagrid
-    * syft
-- [x] Docker
+    * :snake: pip
+    * :snake: jupyter lab
+    * :octocat: git
+    * :crystal_ball: hagrid
+    * :atom: syft
+- [x] :whale: Docker
     * make sure to increase Docker RAM to more than 8GB
-- [x] Testing Hagrid
+- [x] :crystal_ball: Testing Hagrid
 
 ### Additionally, you will need to install
 #### Use either the `pip` or `pip3` command
-- [x] numpy
+- [x] :snake: numpy
     * `pip install numpy`
-- [x] pandas
+- [x] :panda_face: pandas
     * `pip install pandas`
-- [x] OpenDP Smart-Noise
+- [x] :dna: OpenDP Smart-Noise
     * `pip install smartnoise-synth`
-- [x] PyTorch
+- [x] :fire: PyTorch
     * `pip install torch torchvision`
 
 
