@@ -5,12 +5,12 @@ https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
 ### The above will have you install
 - [x] Conda :dragon:
 - [x] Necessary Python packages
-    * pip :snake:
+    * pip :package:
     * jupyter lab :ringed_planet:
     * git :octocat:
     * hagrid :crystal_ball:
     * syft :atom:
-- [x] :whale: Docker
+- [x] Docker :whale:
     * make sure to increase Docker RAM to more than 8GB
 - [x] Testing Hagrid :crystal_ball:
 
