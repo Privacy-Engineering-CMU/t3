@@ -18,7 +18,7 @@ https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
     * make sure to increase Docker RAM to more than 8GB
 4. Testing Hagrid :crystal_ball:
 
-### Additionally, after finishing the 4 steps above, you will need to install the following packages using the commands listed below:
+### After finishing the steps above, install the following packages using the commands listed below:
 #### Use either the `pip` or `pip3` command
 5. numpy :snake:
     * `pip install numpy`
