@@ -3,10 +3,10 @@
 ## Follow the steps outlined in this link below:
 https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
 ### The above will have you install
-- [x] :snake: Conda
+- [x] :dragon: Conda
 - [x] Necessary Python packages
     * :snake: pip
-    * :snake: jupyter lab
+    * :ringed_planet: jupyter lab
     * :octocat: git
     * :crystal_ball: hagrid
     * :atom: syft
