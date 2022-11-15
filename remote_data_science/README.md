@@ -1,5 +1,9 @@
 # :heavy_check_mark: Dependencies and Stuff to Install :heavy_check_mark:
 
+## Download an IDE if you do not already have one
+0. Visual Studio Code :desktop_computer:
+https://code.visualstudio.com/
+
 ## :scroll:	Follow the steps outlined in this link below:
 https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
 ### The above link will have you install:
@@ -27,7 +31,7 @@ https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
 
 
 ### A list of dependencies
-#### Skip these if you ran the above successfully
+#### Skip these if you ran the above steps successfully!
 
 1. python3
     * https://www.python.org/downloads/
