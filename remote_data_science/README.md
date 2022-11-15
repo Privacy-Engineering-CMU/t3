@@ -2,7 +2,7 @@
 
 ## Download an IDE if you do not already have one
 0. Visual Studio Code :desktop_computer:
-- [x] https://code.visualstudio.com/
+    * https://code.visualstudio.com/
 
 ## :scroll:	Follow the steps outlined in this link below:
 https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
