@@ -49,6 +49,6 @@ https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
     * `pip install numpy`
 9. Open DP Smart Noise: https://github.com/opendp/smartnoise-sdk
     * `pip install smartnoise-synth`
-10. PyTorch
+10. PyTorch: https://pytorch.org/get-started/locally/
     * `pip install torch torchvision`
 
