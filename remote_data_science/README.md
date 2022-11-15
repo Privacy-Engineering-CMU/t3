@@ -15,6 +15,7 @@ https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
 - [x] Testing Hagrid
 
 ### Additionally, you will need to install
+#### Use either `pip` or `pip3`
 - [x] numpy
     * `pip install numpy` or use `pip3` if `pip` does not work
 - [x] pandas
