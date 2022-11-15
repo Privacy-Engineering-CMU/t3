@@ -26,7 +26,8 @@ https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
     * `pip install torch torchvision`
 
 
-### A list of dependencies to install a la carte
+### A list of dependencies
+#### Skip these if you ran the above successfully
 
 1. python3
     * https://www.python.org/downloads/
