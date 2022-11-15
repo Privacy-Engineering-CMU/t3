@@ -4,21 +4,34 @@ from snsynth import Synthesizer
 from snsynth.pytorch.nn import PATECTGAN
 from snsynth.pytorch import PytorchDPSynthesizer
 
-pums = pd.read_csv("/Users/davidzagardo/Dropbox/My Mac (Davids-MacBook-Pro.local)/Desktop/SOFTWARE_PROJECTS/t3/remote_data_science/data/preprocessed_10000_entries.csv", index_col=None) # in datasets/
-print("here!")
+pums = pd.read_csv("../data/preprocessed_10000_entries.csv", index_col=None) # in datasets/
 pums = pums.drop(['UserID'], axis=1)
 pums = pums.drop(['MovieName'], axis=1)
 pums = pums.drop(['Timestamp'], axis=1)
 pums = pums.drop(['Unnamed: 0'], axis=1)
-print(pums)
 
-synth1 = Synthesizer.create('mwem', epsilon=10000)
+# Calculate average rating from raw data
+mean_pums = pums['rating'].mean()
+
+# Calculate average rating from MWEM Synthetic Data
+synth1 = Synthesizer.create('mwem', epsilon=1.0)
 sample1 = synth1.fit_sample(pums)
-print(sample1)
+mean_sample1 = sample1['rating'].mean()
 
-sample2 = synth1.sample(10) # get 10 synthetic rows
-print(sample2)
-
+# Calculate average rating from DPCTgan Synthetic Data
 synth2 = Synthesizer.create('dpctgan', epsilon=1.0, verbose=True)
-sample3 = synth2.fit_sample(pums, preprocessor_eps=0.5)
-print(sample3)
+sample2 = synth2.fit_sample(pums, preprocessor_eps=0.5)
+mean_sample2 = sample2['rating'].mean()
+
+# Print average values
+print('\n')
+print('--------------------------------------------')
+print('Average rating with no DP:', mean_pums)
+print('Average rating with MWEM Synthetic Data:', mean_sample1)
+print('Average rating with DPCT GAN Synthetic Data:', mean_sample2)
+print('--------------------------------------------')
+print('\n')
+
+pums.to_csv("../data/original_data.csv")
+sample1.to_csv("../data/sample1.csv")
+sample2.to_csv("../data/sample2.csv")
