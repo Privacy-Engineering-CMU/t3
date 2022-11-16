@@ -6,6 +6,17 @@ from snsynth.pytorch import PytorchDPSynthesizer
 
 # This file generates synthetic movie rating data
 # using 3 different Differential Privacy Algorithms.
+#
+# The file preprocessed_10000_entires.csv in ./data
+# contains approximately 10,000 entries from users
+# that have rated movies on a 1 to 5 scale. The
+# code below processes the data and feeds it into
+# synthetic data generation algorithms using the
+# OpenDP library.
+#
+# The code then calculates the average movie rating
+# across each dataset, original and synthetic, and
+# prints the results.
 
 # Reading data from CSV in 'data' directory
 pums = pd.read_csv("../data/preprocessed_10000_entries.csv", index_col=None) # in datasets/
