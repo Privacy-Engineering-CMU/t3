@@ -4,7 +4,7 @@
 0. Visual Studio Code :desktop_computer:
     * https://code.visualstudio.com/
 
-## :scroll:	Follow the steps outlined in this link below:
+## :scroll:	Follow the steps outlined in the link below:
 
 - [x] MAC: https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
 - [x] WINDOWS: https://openmined.github.io/PySyft/install_tutorials/windows.html
