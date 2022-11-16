@@ -38,7 +38,6 @@
 
 ### A list of dependencies
 #### Skip these if you ran the above steps successfully!
-<details>
 1. python3
     * https://www.python.org/downloads/
 2. conda
@@ -61,4 +60,3 @@
     * `pip install smartnoise-synth`
 10. PyTorch: https://pytorch.org/get-started/locally/
     * `pip install torch torchvision`
-</details>
