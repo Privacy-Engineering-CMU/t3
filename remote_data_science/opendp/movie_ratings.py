@@ -4,6 +4,9 @@ from snsynth import Synthesizer
 from snsynth.pytorch.nn import PATECTGAN
 from snsynth.pytorch import PytorchDPSynthesizer
 
+# This file generates synthetic movie rating data
+# using 3 different Differential Privacy Algorithms.
+
 # Reading data from CSV in 'data' directory
 pums = pd.read_csv("../data/preprocessed_10000_entries.csv", index_col=None) # in datasets/
 
