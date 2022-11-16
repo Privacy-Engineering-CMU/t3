@@ -5,9 +5,11 @@
     * https://code.visualstudio.com/
 
 ## :scroll:	Follow the steps outlined in this link below:
-MAC: https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
-WINDOWS: https://openmined.github.io/PySyft/install_tutorials/windows.html
-LINUX: https://openmined.github.io/PySyft/install_tutorials/linux.html##
+
+- [x] MAC: https://openmined.github.io/PySyft/install_tutorials/osx_11_5_1.html#
+- [x] WINDOWS: https://openmined.github.io/PySyft/install_tutorials/windows.html
+- [x] LINUX: https://openmined.github.io/PySyft/install_tutorials/linux.html##
+
 ### The above link will have you install:
 1. Conda :dragon:
 2. Necessary Python packages
