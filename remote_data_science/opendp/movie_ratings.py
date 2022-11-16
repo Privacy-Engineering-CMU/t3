@@ -28,8 +28,8 @@ synth2 = Synthesizer.create('dpctgan', epsilon=1.0, verbose=True)
 sample2 = synth2.fit_sample(pums, preprocessor_eps=0.5)
 mean_sample2 = sample2['rating'].mean()
 
-# Calculate average movie rating after generating DP-CTGAN Synthetic Data
-# Differentially Private Conditional Tabular GAN
+# Calculate average movie rating after generating PATE-CTGAN Synthetic Data
+# Private Aggregation of Teacher Ensembles Conditional Tabular GAN
 synth3 = Synthesizer.create('patectgan', epsilon=1.0, verbose=True)
 sample3 = synth3.fit_sample(pums, preprocessor_eps=0.5)
 mean_sample3 = sample3['rating'].mean()
@@ -47,3 +47,4 @@ print('\n')
 pums.to_csv("../data/original_data.csv")
 sample1.to_csv("../data/sample1.csv")
 sample2.to_csv("../data/sample2.csv")
+sample3.to_csv("../data/sample3.csv")

@@ -21,6 +21,8 @@
 3. Docker :whale:
     * make sure to increase Docker RAM to more than 8GB
 4. Testing Hagrid :crystal_ball:
+    * If you run into an issue with Docker Compose, try...
+    * https://docs.docker.com/compose/install/linux/#install-the-plugin-manually
 
 ### After finishing the steps above, install the following packages using the commands listed below:
 #### Use either the `pip` or `pip3` command
