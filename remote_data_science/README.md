@@ -21,7 +21,7 @@
 3. Docker :whale:
     * make sure to increase Docker RAM to more than 8GB
 4. Testing Hagrid :crystal_ball:
-    * If you run into an issue with Docker Compose, try...
+    * If you run into an issue with Docker Compose not being installed, try...
     * https://docs.docker.com/compose/install/linux/#install-the-plugin-manually
 
 ### After finishing the steps above, install the following packages using the commands listed below:
@@ -38,7 +38,7 @@
 
 ### A list of dependencies
 #### Skip these if you ran the above steps successfully!
-
+<details>
 1. python3
     * https://www.python.org/downloads/
 2. conda
@@ -61,4 +61,4 @@
     * `pip install smartnoise-synth`
 10. PyTorch: https://pytorch.org/get-started/locally/
     * `pip install torch torchvision`
-
+</details>
