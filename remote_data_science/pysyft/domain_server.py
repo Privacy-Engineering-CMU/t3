@@ -6,6 +6,6 @@ wizard.check_hagrid
 wizard.check_syft
 wizard.check_grid_docker
 
-# Run the following command in your terminal
 # Start Docker desktop
+# Run the following command in your terminal
 # !hagrid launch test_domain domain to docker:8081 --tag=latest --tail=false
